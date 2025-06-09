@@ -7,7 +7,7 @@ const cors = require('cors');
 // Middleware
 app.use(express.json());
 const corsOptions = {
-  origin: 'http://localhost:5173', // Your frontend origin
+  origin: 'https://the-ai-symphony-kdn7.vercel.app/', // Your frontend origin
   methods: ['POST', 'OPTIONS'], // Include OPTIONS for preflight
   allowedHeaders: ['Content-Type'],
   credentials: true // If you need cookies/auth

@@ -1,7 +1,7 @@
 async function fetchingImageUrl(something,color) {
   try {
     // 1. Make the API request
-    const response = await fetch('http://localhost:3000/api/v1/generateImg', {
+    const response = await fetch('https://the-ai-symphony.vercel.app/api/v1/generateImg', {
       method: 'POST',
       mode: 'cors',
       headers: {
